@@ -16,15 +16,17 @@ A simple blog web application built using Node.js, Express.js, and EJS. This app
 
 ## Project Structure
 
+```plaintext
 /blog-app
-|-- /views
-|-- index.ejs // Home page to display all posts
-|-- new.ejs // Page for creating a new post
-|-- edit.ejs // Page for editing a post
-|-- /public
-|-- /css
-|-- style.css // Styling for the application
-|-- app.js // Main entry point for your Node.js application
+  |-- /views
+      |-- index.ejs    // Home page to display all posts
+      |-- new.ejs      // Page for creating a new post
+      |-- edit.ejs     // Page for editing a post
+  |-- /public
+      |-- /css
+          |-- style.css // Styling for the application
+  |-- app.js           // Main entry point for your Node.js application
+
 ​
 
 ## Getting Started
